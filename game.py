@@ -111,7 +111,7 @@ def on_enter(e):
 def on_leave(e):
     e.widget.config(bg=BTN_COLOR)
 
-# --- GUI Setup ---
+# GUI 
 root = tk.Tk()
 root.title("Tic-Tac-Toe AI")
 root.configure(bg=BG_COLOR)
